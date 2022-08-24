@@ -58,7 +58,10 @@ function SomaArray($array){
     return $retorno;
 }
 
-
+function MediaArray($array){
+    $soma = SomaArray($array);
+    return $soma/count($array);
+}
 
 /*
 //nomeFuncao();
